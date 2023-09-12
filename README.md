@@ -44,6 +44,7 @@ java -jar app/build/libs/app.jar
 
 기본적으로 19시 30분, 23시, 00시에 알림을 보내도록 설정되어 있음.
 
+
 ### 문제 추천
 
 ![image](https://github.com/mclub4/BOJ-Slack/assets/55117706/0b43aeb8-464c-4a59-a620-cbb74c6eb660)
@@ -52,11 +53,21 @@ java -jar app/build/libs/app.jar
 
 기본적으로 12시에 문제를 추천해주도록 설정되있으며, 무작위 난이도로 3문제를 추천해줌. 이때, 한 문제는 무조건 골드 이하로 추천해줌. 
 
+![image](https://github.com/mclub4/BOJ-Slack/assets/55117706/6286efd6-713a-4f55-83a2-ebdce8d73b4a)
+
 또한, 유저 커맨드를 통하여 특정 시간이 아니더라도 문제를 추천 받을 수 있으며 /recommend gold 5 이런식으로 입력하여 특정 난이도의 문제를 원하는 수만큼 추천받을 수 있음.
+
 
 ### 백준 문제/유저 정보 가져오기
 
-유저 커맨드를 통하여 특정 문제의
+![image](https://github.com/mclub4/BOJ-Slack/assets/55117706/14b2c3d9-aa53-4080-92a1-6e90596bbd16)
+
+유저 커맨드를 통하여 특정 문제의 정보를 받아올 수 있음.
+
+![image](https://github.com/mclub4/BOJ-Slack/assets/55117706/0e6f3d23-0fb5-49b5-9672-64a182fd29ad)
+
+특정 백준 유저의 정보를 가져오는 것도 가능함.
+
 
 ## 실행 오류 해결 가이드
 
