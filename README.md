@@ -40,6 +40,8 @@ java -jar app/build/libs/app.jar
 
 - ### 문제를 풀지않은 그룹원에게 알림 보내기
 
+![image](https://github.com/mclub4/BOJ-Slack/assets/55117706/b348a114-c97d-43cb-86a7-02feff61aed4)
+
 특정 시간에 알람을 활성화한 문제를 풀지 않은 그룹원을 태그하여 알림을 보냄.
 
 기본적으로 19시 30분, 23시, 00시에 알림을 보내도록 설정되어 있음.
@@ -58,7 +60,7 @@ java -jar app/build/libs/app.jar
 또한, 유저 커맨드를 통하여 특정 시간이 아니더라도 문제를 추천 받을 수 있으며 /recommend gold 5 이런식으로 입력하여 특정 난이도의 문제를 원하는 수만큼 추천받을 수 있음.
 
 
-### 백준 문제/유저 정보 가져오기
+- ### 백준 문제/유저 정보 가져오기
 
 ![image](https://github.com/mclub4/BOJ-Slack/assets/55117706/14b2c3d9-aa53-4080-92a1-6e90596bbd16)
 
