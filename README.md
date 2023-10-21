@@ -43,10 +43,10 @@ java -jar app/build/libs/app.jar
 ```
 </br>
 
-## 🛠 개발 환경
+## 🛠 기술 스택
 
 <img src="https://img.shields.io/badge/spring-3776AB?style=for-the-badge&logo=Spring&logoColor=white">
-
+<img src="https://img.shields.io/badge/spring-3776AB?style=for-the-badge&logo=AmazonEC2&logoColor=white">
 </br>
 
 ## 🎥 주요 기능
