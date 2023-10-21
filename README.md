@@ -7,13 +7,13 @@
 
 git action을 통한 지속적인 CI/CD가 이루어지도록 할 예정.
 
-## 사전 준비
+## 📌 사전 준비
 
 - 반드시 Jdk가 설치되어있어야함!! 
 - Java 17 기준으로 제작되었음. 반드시 Java 17이여야함!!
 - Gradle 8.1.1 ver 기준으로 제작되었음 (Build시 Gradle Wrapper를 이용했기 때문에 설치되지 않아도 됨)
 
-## 시작하기
+## 🔥 시작하기
 
 <br/>
 
@@ -26,7 +26,7 @@ git action을 통한 지속적인 CI/CD가 이루어지도록 할 예정.
 
 <br/>
 
-## 빌드 및 실행
+## 🗂 빌드 및 실행
 
 ### 빌드
 ```groovy
@@ -41,8 +41,13 @@ gradle clean build
 ```cmd
 java -jar app/build/libs/app.jar
 ```
+<br\>
 
-## 주요 기능
+## 🛠 개발 환경
+
+<img src="https://img.shields.io/badge/spring-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+## 🎥 주요 기능
 
 - ### 문제를 풀지않은 그룹원에게 알림 보내기
 
@@ -83,7 +88,7 @@ java -jar app/build/libs/app.jar
 특정 백준 유저의 정보를 가져오는 것도 가능함.
 
 
-## 실행 오류 해결 가이드
+## ⚠️ 실행 오류 해결 가이드
 
 아래는 실행하는데 겪었던 에러들과 그에 대한 해결방법을 정리한 것임. 
 
