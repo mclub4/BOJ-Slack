@@ -48,18 +48,7 @@ class CommandTestApplicationTests {
 	// DB에 유저 정보 넣기
 	void userLoads() {
 		final Map<String, String[]> members = new HashMap(){{
-			put("mclub4", new String[]{"U050X2WQCD7", "activate", "조현진"});
-			put("ehensnfl",  new String[]{"U050LTRB69J", "activate", "홍석주"});
-			put("sunberbee123",  new String[]{"U050JECM4AE", "deactivate", "이현준"});
-			put("pjs4813",  new String[]{"U050X34U273", "activate", "박준석"});
-			put("jjhinu104",  new String[]{"U050X321HED", "activate", "정지환"});
-			put("ho44013",  new String[]{"U053ZKT8D46", "deactivate", "김성호"});
-			put("changyon99",  new String[]{"U051EELPCF7", "deactivate", "최창연"});
-			put("noye",  new String[]{"U054Z1PGJ8H", "deactivate", "한창훈"});
-			put("doo620",  new String[]{"U0519KP5R8D", "activate", "최지훈"});
-			put("chldudfkr119",  new String[]{"U050X30LGF3", "activate", "최영락"});
-			put("sam1006", new String[]{"U055W9B3XH8", "activate", "조보국"});
-			put("jungus07",  new String[]{"U05626WUJ0L", "activate", "정의석"});
+			put("mclub4", new String[]{"(코드)", "(알림 활성화)", "(이름)"});
 		}};
 
 		for(String member : members.keySet()){
