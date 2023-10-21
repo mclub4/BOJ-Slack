@@ -15,12 +15,16 @@ git action을 통한 지속적인 CI/CD가 이루어지도록 할 예정.
 
 ## 시작하기
 
+<br/>
+
 1. src/main/resources 폴더에 env.properties 파일을 만들기
 2. Slack API 홈페이지에서 token 발급받기
 3. 자신이 메시지를 보낼 team의 ID와 channel의 ID를 알아내기 (Slack API 홈페이지 들어가면 나와있음)
 4. env.properties 폴더에 toekn = "~~", teamID = "~", channelID = "~" 형식으로 각 줄에 적을 것
 5. 이때, channel은 Slack의 Team마다 다르니 src/main/java/slack/SlackInfo.java 코드 부분의 getChannelID 부분을 수정할 것.
 6. 실행전 db를 생성하고 Test의 userLoads()와 problemLoads()를 실행할 것. 이때, userLoads()에는 팀원들의 SlackID 코드, 알림활성화 여부, 이름을 적으면 됨.
+
+<br/>
 
 ## 빌드 및 실행
 
