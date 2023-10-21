@@ -41,11 +41,13 @@ gradle clean build
 ```cmd
 java -jar app/build/libs/app.jar
 ```
-<br\>
+</br>
 
 ## 🛠 개발 환경
 
 <img src="https://img.shields.io/badge/spring-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+</br>
 
 ## 🎥 주요 기능
 
